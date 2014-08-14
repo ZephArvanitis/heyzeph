@@ -1,0 +1,41 @@
+TO DO
+Create new non-root users
+    - myself
+    - ben (no wx privs)
+
+Fix background somehow.
+  - mostly done, but need to concoct a background color that isn't awful
+
+Figure out a general layout
+  - Custom header
+  - Tabs on side/top for different things
+  - background, layout of information
+
+Version control website from computer, have a sync.sh that rsync's
+everything everywhere
+
+Generate content
+  - About: harvey mudd, physics/cs, timeliney thing? 
+  - Resume available on request or fancy thing
+  - Ultimate stuff
+    * Highlights
+    * Coaching/captaining tips
+  - Blog would be cool eventually
+    * Physicsy stuff
+    * Interesting softwarey things
+  - Impossible List
+    * Fitness
+      > goals regarding fitness
+      > learn more about fitness-related things (SCIENCE)
+    * Ongoing learning stuff
+    * Education something something
+      > learn more about lower education
+      > contribute to it somehow
+    * Opensource things
+
+Fancier web stuff
+  - Get templating up and running with hakyll
+  - Use SCSS instead of raw CSS - more like a language and less like, well,
+    CSS.
+
+
