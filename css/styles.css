@@ -85,13 +85,20 @@ div#page_content
 {
     
 }
+
 .app-header {
     position: relative;
+    top: -2em;
     min-width: 990px;
-    background: url('../images/blue.jpg') no-repeat scroll center center, linear-gradient(#004AC4, #2E569F) repeat scroll 0% 0% transparent;
-    border-bottom: 1px solid #2E569F;
+    background: url('../images/headerbackground.jpg') no-repeat scroll center center, linear-gradient(#004AC4, #2E569F) repeat scroll 0% 0% transparent;
+    border-bottom: 1px solid #303C85;
     box-shadow: 0px 0px 5px rgba(78, 2, 2, 0.76);
     z-index: 11;
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
 .logo {

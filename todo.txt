@@ -1,7 +1,6 @@
 TO DO
 Create new non-root users
     - myself
-    - ben (no wx privs)
 
 Fix background somehow.
   - mostly done, but need to concoct a background color that isn't awful
