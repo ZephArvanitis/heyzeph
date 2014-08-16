@@ -6,9 +6,10 @@ Fix background somehow.
   - mostly done, but need to concoct a background color that isn't awful
 
 Figure out a general layout
-  - Custom header
-  - Tabs on side/top for different things
-  - background, layout of information
+  - Custom header (kinda almost done)
+  - Tabs on side/top for different things (tabs, yes. different things? not yet)
+  - background, layout of information (still working on a background,
+    layout is still up for grabs)
 
 Version control website from computer, have a sync.sh that rsync's
 everything everywhere
@@ -33,8 +34,11 @@ Generate content
     * Opensource things
 
 Fancier web stuff
+  - Clean up the CSS. It's all over the place.
+  - Override the default 404, that's a really lame page (.htaccess in
+    /var/www, I believe...oooor, don't slow down the server as much and use
+    httpd main server config file)
   - Get templating up and running with hakyll
+  - Timeliney thing?
   - Use SCSS instead of raw CSS - more like a language and less like, well,
     CSS.
-
-

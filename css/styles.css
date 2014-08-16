@@ -1,3 +1,14 @@
+/* Set defaults */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button, textarea, p, th, td, a
+{
+    margin: 0px;
+    padding: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
 /* GLOBAL */
 body
 {
@@ -5,11 +16,11 @@ body
     font-size: 14px;
     color: #333;
     text-align: left;
-    background-color: #2a5b95;
-    background-image: url('../images/backdrop.JPG');
+    background-color: #9898fc;
+    background-image: url('../images/backdrop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 30px 0 0 0;
+    margin: 0 0 0 0;
 }
 body a
 {
@@ -21,8 +32,8 @@ body a:hover
 }
 h1
 {
-    font-size: 32px;
-    line-height: 14px;
+    font-size: 2.5em;
+    line-height: 1em;
     color: black;
 }
 div#menu ul a
@@ -42,16 +53,18 @@ div#page
     margin: 0 auto 0 auto;
     padding-left: 5em;
     padding-right: 5em;
-    min-width: 30em
+    min-width: 30em;
+    max-width: 80em;
 }
 div#site_title
 {
     color: white;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 21px;
-    line-height: 15px;
-    margin: 0 0 0 30px;
+    font-size: 2em;
+    line-height: 0.7em;
+    margin-left: 1em;
+    padding-top: 1em;
 }
 div#primary_content
 {
@@ -87,13 +100,90 @@ div#page_content
 }
 
 .app-header {
+    background-color: transparent;
+    background-image: url('../images/headerbackground.jpg'), linear-gradient(#2f5db1, #2e569f);
+    background-repeat: no-repeat, repeat;
+    background-attachment: scroll, scroll;
+    background-position: center center, 0% 0%;
+    background-clip: border-box, border-box;
+    background-origin: padding-box, padding-box;
+    background-size: auto auto, auto auto;
     position: relative;
-    top: -2em;
+    top: 0;
     min-width: 990px;
-    background: url('../images/headerbackground.jpg') no-repeat scroll center center, linear-gradient(#004AC4, #2E569F) repeat scroll 0% 0% transparent;
-    border-bottom: 1px solid #303C85;
+    border-bottom: 1px solid #0049c3;
     box-shadow: 0px 0px 5px rgba(78, 2, 2, 0.76);
     z-index: 11;
+}
+
+.header-nav {
+    float: left;
+    margin-left: 15em;
+    margin-top: -2em;
+}
+
+.header-nav ul {
+    margin: 0;
+}
+
+.header-nav li {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-shadow: 0px -1px 0px #001f76;
+}
+
+.header-nav a {
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.95);
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 21px;
+    display: block;
+    padding: 0px 8px;
+}
+ 
+.header-nav a:hover {
+     background: #334972;
+     text-decoration: underline;
+     color: white;
+}
+
+.header-container {
+    width: 960px;
+    margin: 0px auto;
+    margin-top: 0px;
+    margin-right-value: auto;
+    margin-bottom: 0px;
+    margin-left-value: auto;
+    margin-left-ltr-source: physical;
+    margin-left-rtl-source: physical;
+    margin-right-ltr-source: physical;
+    margin-right-rtl-source: physical;
+    padding: 0px 15px;
+}
+
+#mastHead {
+    line-height: 1.28571em;
+    font-size: 14px;
+}
+                                                                        }
+ul.header-nav {
+    list-style: none outside none;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 *{
