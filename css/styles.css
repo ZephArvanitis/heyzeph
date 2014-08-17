@@ -1,12 +1,25 @@
+/* COLOR REFERENCE
+ *   Colors get pretty confusing pretty fast. 
+ *   Here's a list, in the hopes of standardizing on a color theme
+ *   eventually:
+ *   - #2f5db1, #2e569f, white: colors used in the header
+ *   - #0049c3: border at the bottom of the header
+ *   - #02204e: shadow at the bottom of the header
+ *   - #001f76: shadow of the text in the navigation bar
+ *   - #334972: background of the navigation bar buttons when hovered
+ *   - #567abc: border of the content box, and border below headers therein
+ *
+ */
+
 /* Set defaults */
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button, textarea, p, th, td, a
 {
-    margin: 0px;
-    padding: 0px;
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
+    margin: 0;
+    padding: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
 }
 
 /* GLOBAL */
@@ -16,19 +29,13 @@ body
     font-size: 14px;
     color: #333;
     text-align: left;
+    /* TODO: Change background color to match texture */
     background-color: #9898fc;
+    /* TODO: Use a texture instead of an image */
     background-image: url('../images/backdrop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 0 0 0;
-}
-body a
-{
-    color: #ca4a0f;
-}
-body a:hover
-{
-    color: #d50b0b;
 }
 h1
 {
@@ -36,83 +43,21 @@ h1
     line-height: 1em;
     color: black;
 }
-div#menu ul a
-{
-    text-decoration: none;
-    color: black;
-}
-div#menu ul a:hover
-{
-    text-decoration: underline;
-    color: black;
-}
 
-/* LAYOUT */
-div#page
-{
-    margin: 0 auto 0 auto;
-    padding-left: 5em;
-    padding-right: 5em;
-    min-width: 30em;
-    max-width: 80em;
-}
-div#site_title
-{
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 2em;
-    line-height: 0.7em;
-    margin-left: 1em;
-    padding-top: 1em;
-}
-div#primary_content
-{
-    /* ROUNDED CORNERS */
-    -moz-border-radius: 24px;
-    -webkit-border-radius: 24px;
-    border-radius: 24px;
-    /* DROP SHADOW */
-    -moz-box-shadow: 0em 0em 1em #000000;
-    -webkit-box-shadow: 0em 0em 1em #000000;
-    box-shadow: 0em 0em 1em #000000;
-    /* OTHER */
-    background-color: white;
-    padding: 2.5em;
-}
-div#menu ul
-{
-    list-style: none;
-    display: inline;
-    margin: 0;
-    padding: 0;
-    font-size: 18px;
-}
-div#menu li
-{
-    margin: 0;
-    padding: 8px;
-    display: inline;
-}
-div#page_content
-{
-    
-}
-
+/* HEADER/BANNER */
 .app-header {
     background-color: transparent;
-    background-image: url('../images/headerbackground.jpg'), linear-gradient(#2f5db1, #2e569f);
-    background-repeat: no-repeat, repeat;
-    background-attachment: scroll, scroll;
-    background-position: center center, 0% 0%;
-    background-clip: border-box, border-box;
-    background-origin: padding-box, padding-box;
-    background-size: auto auto, auto auto;
+    background-image: linear-gradient(#2f5db1, #2e569f);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto, auto;
     position: relative;
-    top: 0;
     min-width: 990px;
     border-bottom: 1px solid #0049c3;
-    box-shadow: 0px 0px 5px rgba(78, 2, 2, 0.76);
+    box-shadow: 0 0 5px #02204e;
     z-index: 11;
 }
 
@@ -120,10 +65,6 @@ div#page_content
     float: left;
     margin-left: 15em;
     margin-top: -2em;
-}
-
-.header-nav ul {
-    margin: 0;
 }
 
 .header-nav li {
@@ -134,12 +75,12 @@ div#page_content
 
 .header-nav a {
     border-radius: 3px;
-    color: rgba(255, 255, 255, 0.95);
+    color: white;
     font-weight: bold;
     text-decoration: none;
     line-height: 21px;
     display: block;
-    padding: 0px 8px;
+    padding: 0.1em 0.3em;
 }
  
 .header-nav a:hover {
@@ -151,22 +92,11 @@ div#page_content
 .header-container {
     width: 960px;
     margin: 0px auto;
-    margin-top: 0px;
-    margin-right-value: auto;
-    margin-bottom: 0px;
-    margin-left-value: auto;
-    margin-left-ltr-source: physical;
-    margin-left-rtl-source: physical;
-    margin-right-ltr-source: physical;
-    margin-right-rtl-source: physical;
     padding: 0px 15px;
-}
-
-#mastHead {
     line-height: 1.28571em;
     font-size: 14px;
 }
-                                                                        }
+
 ul.header-nav {
     list-style: none outside none;
     list-style-type: none;
@@ -174,48 +104,49 @@ ul.header-nav {
     list-style-position: outside;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
+/* CONTENT */
+
+.content-container {
+    padding: 0 1cm 1cm;
+    min-width: 10cm;
+    max-width: 20cm;
+    margin: 0px auto;
+}
+
+.column-container {
+    padding: 15px 30px 30px;
+    border-width: medium 1px 1px;
+    border-style: none solid solid;
+    border-color: #567abc;
+    background: none repeat scroll 0% 0% #FFF;
+}
+
+.column-header {
+    position: relative;
+    clear: both;
+    border-bottom: 1px solid #567abc;
+    font-size: 32px;
+    line-height: 1em;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* From what I can tell this is meant as a hack around the default behavior
+ * of floats in html. However, it doesn't seem to be important here.
+ *
 .clearfix:after {
     clear: both;
 }
 .clearfix:before, .clearfix:after {
     content: " ";
     display: table;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.logo {
-    float: left;
-    height: 58px;
-    width: 111px;
-    margin: 9px 15px 9px 0px;
-    padding: 0px;
-}
+} */
 
 /* COLOR STYLES */
-.color01
-{
-    color: #de5b1e;
-}
-.color02
-{
-    color: #f0b747;
-}
-.color03
-{
-    color: #6aa427;
-}
-.color04
-{
-    color: #9bcfb2;
-}
 .colorwater
 {
     color: #2a5b95;
