@@ -27,11 +27,15 @@ main = hakyllWith configuration $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "resume.pdf" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "css/*" $ do
         route   idRoute
         compile compressCssCompiler
 
-    match (fromList ["about.rst", "contact.markdown"]) $ do
+    match (fromList ["about.markdown", "contact.markdown", "resume/resume.markdown"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext

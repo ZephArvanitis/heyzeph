@@ -10,10 +10,10 @@ Figure out a general layout
   - background, layout of information (still working on a background,
     layout is still up for grabs)
   - Potentially a sidebar for archive links etc eventually.
+  - Make the css be browser-width-dependent (it's okay now, but not great)
 
 Generate content
-  - About: harvey mudd, physics/cs, timeliney thing? 
-  - Resume available on request or fancy thing
+  - About: timeliney thing? 
   - Ultimate stuff
     * Highlights
     * Coaching/captaining tips
