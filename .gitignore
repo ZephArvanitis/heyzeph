@@ -1,2 +1,14 @@
+# Vim things (yes, I'll move this to a global gitignore someday)
 *~
 *.sw?
+
+# Cabal things
+.cabal-sandbox
+cabal.sandbox.config
+dist/*
+
+# Don't version control hakyll's temporary files, the final rendered
+# html, or the executable
+.store/*
+_site/*
+blog

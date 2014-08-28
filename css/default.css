@@ -8,7 +8,6 @@
  *   - #001f76: shadow of the text in the navigation bar
  *   - #334972: background of the navigation bar buttons when hovered
  *   - #567abc: border of the content box, and border below headers therein
- *
  */
 
 /* Set defaults */
@@ -123,6 +122,8 @@ ul.header-nav {
     border-style: none solid solid;
     border-color: #567abc;
     background: none repeat scroll 0% 0% #FFF;
+    min-height: 5cm;
+    font-size: 12pt
 }
 
 .column-header {
@@ -135,19 +136,10 @@ ul.header-nav {
     margin-bottom: 10px;
 }
 
-/* From what I can tell this is meant as a hack around the default behavior
- * of floats in html. However, it doesn't seem to be important here.
- *
-.clearfix:after {
-    clear: both;
-}
-.clearfix:before, .clearfix:after {
-    content: " ";
-    display: table;
-} */
-
-/* COLOR STYLES */
-.colorwater
-{
-    color: #2a5b95;
+div#footer {
+    color: #555;
+    font-size: 9pt;
+    margin-top: 2em;
+    padding: 1em;
+    text-align: right;
 }
