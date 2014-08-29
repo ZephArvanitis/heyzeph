@@ -27,6 +27,10 @@ main = hakyllWith configuration $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "timeline/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "resume.pdf" $ do
         route   idRoute
         compile copyFileCompiler
