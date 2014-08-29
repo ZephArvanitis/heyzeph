@@ -12,4 +12,9 @@ flying stunt kites, and spending time in the mountains.
 
 For more details, feel free to check out my [resume](/resume.pdf "Resume").
 
-<iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AllmOWpXf0tWdHpHdGFjSEo3TTNoOG9jOUppenpiclE#gid&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe>
+<div class="column-header" style="padding-top: 1cm">
+Timeline
+</div>
+<iframe
+src='http://embed.verite.co/timeline/?source=0AllmOWpXf0tWdHpHdGFjSEo3TTNoOG9jOUppenpiclE&font=Bevan-PotanoSans&maptype=toner&lang=en&start_at_end=true&height=650'
+width='100%' height='650' frameborder='0'></iframe>
