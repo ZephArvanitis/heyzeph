@@ -43,6 +43,30 @@ h1
     color: black;
 }
 
+h2 {
+  padding: 0.2cm 0;
+}
+
+ul {
+  padding: 0 0.5cm;
+}
+
+.centerimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #666;
+  font-size: 11pt;
+}
+
 /* HEADER/BANNER */
 .app-header {
     background-color: transparent;
@@ -108,7 +132,6 @@ ul.header-nav {
 }
 
 /* CONTENT */
-
 .content-container {
     padding: 0 1cm 1cm;
     min-width: 10cm;
@@ -117,13 +140,26 @@ ul.header-nav {
 }
 
 .column-container {
-    padding: 15px 30px 30px;
+    padding: 0.5cm 1cm 1cm;
     border-width: medium 1px 1px;
     border-style: none solid solid;
     border-color: #567abc;
     background: none repeat scroll 0% 0% #FFF;
     min-height: 5cm;
-    font-size: 12pt
+    font-size: 13pt;
+    line-height: 1.2em;
+    background-color: #F8F8F8;
+    color: #222;
+}
+
+.column-container p {
+    padding: 0.2cm 0;
+}
+
+.info {
+  text-align: right;
+  color: #AAA;
+  font-size: 10pt;
 }
 
 .column-header {

@@ -5,8 +5,12 @@ Create new non-root users
 Fix background somehow.
   - mostly done, but need to concoct a background color that isn't awful
 
+Hakyll things
+  - Set up tex a bit nicer:
+    * centered equations, align, etc.
+    * don't change line height when the line contains math
+
 Figure out a general layout
-  - Tabs on side/top for different things (tabs, yes. different things? not yet)
   - Potentially a sidebar for archive links etc eventually.
   - Make the css be browser-width-dependent (it's okay now, but not great)
 
@@ -16,6 +20,10 @@ Generate content
     * Coaching/captaining tips
   - Blog would be cool eventually
     * Physicsy stuff
+      - Start with neutrino super-post
+      - Solar fusion
+      - Kaons -> move post from tex writeup
+      - Migrate theomech pdf to post
     * Interesting softwarey things
   - Impossible List
     * Fitness
@@ -27,7 +35,7 @@ Generate content
       > contribute to it somehow
     * Opensource things
 
-Fancier web stuff
+Web stuff
   - Set up Google Analytics
   - Use SCSS instead of raw CSS - more like a language and less like, well,
     CSS.
