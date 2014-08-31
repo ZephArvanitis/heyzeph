@@ -7,13 +7,10 @@ Fix background somehow.
 
 Figure out a general layout
   - Tabs on side/top for different things (tabs, yes. different things? not yet)
-  - background, layout of information (still working on a background,
-    layout is still up for grabs)
   - Potentially a sidebar for archive links etc eventually.
   - Make the css be browser-width-dependent (it's okay now, but not great)
 
 Generate content
-  - About: timeliney thing? 
   - Ultimate stuff
     * Highlights
     * Coaching/captaining tips
@@ -32,7 +29,6 @@ Generate content
 
 Fancier web stuff
   - Set up Google Analytics
-  - Timeliney thing?
   - Use SCSS instead of raw CSS - more like a language and less like, well,
     CSS.
 
