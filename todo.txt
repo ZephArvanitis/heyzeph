@@ -9,6 +9,11 @@ Hakyll things
   - Set up tex a bit nicer:
     * centered equations, align, etc.
     * don't change line height when the line contains math
+  - Set up fancy image migrating so blog posts can stay close to their
+    affiliated images
+  - Make some other compilers
+    * TeX
+    * ipynb?
 
 Figure out a general layout
   - Potentially a sidebar for archive links etc eventually.

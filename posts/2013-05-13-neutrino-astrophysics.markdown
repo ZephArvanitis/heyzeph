@@ -177,15 +177,9 @@ of the three neutrino types in both bases: $\nu_e$ and $\nu_\mu$ for the flavor
 eigenstates and $\nu_1$ and $\nu_2$ for the mass eigenstates. We could choose
 two constants to represent the components of $\nu_e$ in the two mass
 eigenstates, but in order to ensure normalization, we instead use the sine and
-cosine of an angle, $\theta_{12}$, and end up with
-
-\begin{align}
-
-\nu_e &= \cos(\theta_{12})\nu_1 + \sin(\theta_{12})\nu_2\\
-
-\nu_\mu &= -\sin(\theta_{12})\nu_1 + \cos(\theta_{12})\nu_2
-
-\end{align}
+cosine of an angle, $\theta_{12}$, and end up with 
+$$\nu_e = \cos(\theta_{12})\nu_1 + \sin(\theta_{12})\nu_2$$
+$$\nu_\mu = -\sin(\theta_{12})\nu_1 + \cos(\theta_{12})\nu_2$$
 
 We can similarly convert from the mass eigenstates to the flavor eigenstates.
 Throwing in a third state complicates matters somewhat: we have to add two new
@@ -327,13 +321,7 @@ challenge.
 Even though we can't directly see the neutrino background, we have some good
 reasons to believe that it exists. For one thing, the presence of neutrinos
 affects the ratio of protons to neutrons, based on reactions like the
-following:
-
-\\[
-n\\leftrightarrow p+e^-+\\overline\\nu_e\\\\
-p+e^-\\leftrightarrow n + \\nu_e
-\\]
-
+following: $$n\leftrightarrow p+e^-+\overline{\nu}_e\\ p+e^-\leftrightarrow n + \nu_e$$
 As such, the presence of neutrinos throughout the Universe has dramatic effects
 on nucleosynthesis, the process by which nucleons combine into larger nuclei,
 and the current abundances give indirect evidence for the cosmic neutrino
