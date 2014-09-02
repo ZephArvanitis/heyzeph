@@ -286,7 +286,7 @@ The Cosmic Neutrino Background
 Once upon a time, almost 14 billion years ago, there was a Big Bang. In the
 milliseconds afterwards, everything in the Universe (mostly electrons,
 positrons, photons, and neutrinos) was in thermal equilibrium. What that
-means is that the reaction $\nu+\bar{\nu}\leftrightarrow e^+ + e^-$
+means is that the reaction $$\nu+\overline{\nu}\leftrightarrow e^+ + e^-$$
 could occur in both directions. That means the energy of the neutrinos has to
 be high enough to produce two more massive particles, and the cross section for
 the interaction has to do with the temperature of the Universe. At a
@@ -402,15 +402,23 @@ IceCube is a Cerenkov detector. Its 'detector' consists of about a cubic
 kilometer of ice in the Antarctic, and it has 86 strings of detectors suspended
 in the ice. They typically detect solar and atmospheric neutrinos, but in an
 article submitted to Phys. Rev. Letters last month, they report the detection
-of two peta-electron volt neutrinos. That's $10^{15}$ electron volts! These
-high-energy events are very unlikely to have resulted from cosmic ray
-interactions with the atmosphere (though the collaboration is investigating the
-possibility that they resulted from the decay of charmed particles produced by
-high-energy cosmics), and the collaboration is fairly sure that they're
-actually a product of some extremely high-energy astrophysical events. In the
-paper, they suggest gamma ray bursts or active galactic nuclei as potential
-sources, and they're hopeful that further analysis will reveal more similarly
-energetic neutrinos or give clues to their origin.
+of two peta-electron volt neutrinos. That's $10^{15}$ electron volts, or
+around the kinetic energy of a few hundred mosquitos! While that might not
+sound like much, packing all that energy into a nearly massless particle is
+quite impressive. In a slightly more reasonable comparison, these neutrinos
+are much more energetic than protons in the Large Hadron Collider over in
+CERN, which are accelerated to a measly 3.5 TeV. That's
+_tera_electronvolts, as compared with the _peta_electronvolt-energy
+neutrinos, a difference of 3 orders of magnitude.
+
+These high-energy events are very unlikely to have resulted from cosmic ray
+interactions with the atmosphere (though the collaboration is investigating
+the possibility that they resulted from the decay of charmed particles
+produced by high-energy cosmics), and the collaboration is fairly sure that
+they're actually a product of some extremely high-energy astrophysical
+events. In the paper, they suggest gamma ray bursts or active galactic
+nuclei as potential sources, and they're hopeful that further analysis will
+reveal more similarly energetic neutrinos or give clues to their origin.
 
 Oh, and just as proof that physicists have a sense of humor, the detected
 neutrinos have been named Bert and Ernie. It's even in the graphics for the
