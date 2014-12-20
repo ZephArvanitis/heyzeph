@@ -28,10 +28,7 @@ body
     font-size: 14px;
     color: #333;
     text-align: left;
-    /* TODO: Change background color to match texture */
-    background-color: #9898fc;
-    /* TODO: Use a texture instead of an image */
-    background-image: url('../images/backdrop.jpg');
+    background-color: #668ACC;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 0 0 0;

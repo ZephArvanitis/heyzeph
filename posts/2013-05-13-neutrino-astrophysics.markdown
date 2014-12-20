@@ -40,15 +40,14 @@ steps in hydrogen fusion.
   </figcaption>
 </figure>
 
-
 The solid lines show neutrino fluxes versus the energy of the produced
-neutrinos for various steps in the proton proton chain. In particular, the
-lowest-energy neutrinos shown (the spike on the left) are produced in the
-first step of the pp chain, while the other reactions, like boron-8 and
-He-p fusion, occur in only a small fraction of solar fusion reactions. The
-dashed lines show predicted neutrino fluxes from the CNO cycle, which isn't
-terribly relevant to the Sun, since its core is too cool for the CNO cycle
-to function.
+neutrinos for various steps in the proton proton chain, the main fusion
+mechanism for solar fusion. In particular, the lowest-energy neutrinos
+shown (the spike on the left) are produced in the first step of the pp
+chain, while the other reactions, like boron-8 and He-p fusion, occur in
+only a small fraction of solar fusion reactions. The dashed lines show
+predicted neutrino fluxes from the CNO cycle, which isn't terribly relevant
+to the Sun, since its core is too cool for the CNO cycle to function.
 
 Neutrino Detectors
 ---
@@ -58,29 +57,31 @@ interact only via the weak interaction, their interactions have fantastically
 low cross-sections, which means that detectors end up seeing only a couple of
 neutrinos per day in some of the better cases.
 
-The very first neutrino detector is typically called the Homestake or Davis
-experiment, and involved ${}^{37}$Cl in the form of perchloroethylene, a common
+The first successful neutrino detection experiment was the Homestake
+experiment, which involved ${}^{37}$Cl in the form of perchloroethylene, a common
 cleaning chemical. The interaction monitored by the experiment was
 $\nu_e+{}^{37}\text{Cl}\rightarrow e^- + {}^{37}\text{Ar}$. For those of you
 without a periodic table handy, this is just the conversion of a neutron in
 chlorine to a proton in argon. The lowest-energy neutrinos that could
-participate in this reaction had energies of around 0.8 MeV. Luckily for
-science, the results of the experiment were interesting enough to warrant a new
-generation of detectors, based on gallium-71.
+participate in this reaction had energies of around 0.8 MeV. The results of
+the experiment were interesting enough to warrant a new generation of
+detectors, based on gallium-71.
 
-Gallium detectors monitor the reaction $\nu_e+{}^{71}\text{Ga}\rightarrow e^- +
-{}^{71}\text{Ge}$, but have a much lower threshold energy: just 0.2 MeV, which
-is low enough to detect pp chain neutrinos. Oh, and another fun fact: one of
-the gallium neutrino detectors contained 60 tons of gallium, at a time when the
-world production of gallium was just 10 tons per year! The threshold energies
-for these detector types are shown in the figure below. Both of these
-experiment types are chemically based: physicists set up the detectors, leave
-them alone for a couple of months, then chemically separate out the desired
-atoms, and somehow count them one by one. While these can detect solar
-neutrinos, this experimental model has some drawbacks: it can't tell you
-exactly when an interaction occurred, and it gives little to no information
-about the direction or energy of the incoming neutrino. These drawbacks led to
-the next generation of neutrino detection: Cerenkov detectors.
+Gallium detectors monitor a similar reaction:
+$\nu_e+{}^{71}\text{Ga}\rightarrow e^- + {}^{71}\text{Ge}$, but the
+neutrinos involvedhave a much lower threshold energy: just 0.2 MeV, which
+is low enough to detect pp chain neutrinos. (As a fun aside, one of the
+gallium neutrino detectors contained 60 tons of gallium, at a time when the
+world production of gallium was just 10 tons per year.) The threshold
+energies for these detector types are shown in the figure below. Both of
+these experiment types are chemically based: physicists set up the
+detectors, leave them alone for a couple of months, then chemically
+separate out the desired atoms, and somehow count them one by one. While
+these can detect solar neutrinos, this experimental model has some
+drawbacks: it can't tell you exactly when an interaction occurred, and it
+gives little to no information about the direction or energy of the
+incoming neutrino. These drawbacks led to the next generation of neutrino
+detection: Cerenkov detectors.
 
 The first Cerenkov detectors looked for elastic scattering between neutrinos
 and electrons. In such a process, the electron may be accelerated to faster
