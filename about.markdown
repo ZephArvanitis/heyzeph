@@ -1,13 +1,12 @@
 ---
 title: About
 ---
-I'm currently an undergraduate at Harvey Mudd College,
-where I'm studying physics and computer science, and
-majoring in the former. I get excited about particle physics,
-the Renaissance, and interesting computational problems.
+I'm a recent graduate of Harvey Mudd College, where I studied physics and
+computer science, and majored in the former. I get excited about particle
+physics, the Renaissance, and interesting computational problems.
 
-In my free time, I enjoy playing Ultimate (Frisbee),
-flying stunt kites, and spending time in the mountains.
+In my free time, I enjoy playing Ultimate (Frisbee), repairing bikes, and
+spending time in the mountains.
 
 For more details, feel free to check out my [resume](/resume.pdf "Resume").
 

@@ -25,11 +25,11 @@ Generate content
     * Coaching/captaining tips
   - Blog would be cool eventually
     * Physicsy stuff
-      - Start with neutrino super-post
       - Solar fusion
       - Kaons -> move post from tex writeup
       - Migrate theomech pdf to post
     * Interesting softwarey things
+  - Personal blog
   - Impossible List
     * Fitness
       > goals regarding fitness

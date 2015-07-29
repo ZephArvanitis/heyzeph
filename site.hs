@@ -1,9 +1,13 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.Monoid (mappend)
+import           Data.Monoid (mappend, mconcat)
 import           Hakyll
 
 --------------------------------------------------------------------------------
+
+numRecentPosts :: Int
+numRecentPosts = 2
+
 configuration :: Configuration
 configuration = defaultConfiguration {
   -- Store backend/temporary files out of sight
@@ -47,39 +51,73 @@ main = hakyllWith configuration $ do
 
     match "posts/*" $ do
         route $ setExtension "html"
+        let postContext = mconcat 
+                [ basePostContext
+                , field "blogurl" $ \item -> return "archive.html"
+                ]
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/post.html"    postCtx
-            >>= loadAndApplyTemplate "templates/default.html" postCtx
+            >>= loadAndApplyTemplate "templates/post.html"    postContext
+            >>= loadAndApplyTemplate "templates/default.html" postContext
+            >>= relativizeUrls
+
+    match "rafiki-posts/*" $ do
+        route $ setExtension "html"
+        let postContext = mconcat 
+                [ basePostContext
+                , field "blogurl" $ \item -> return "rafiki-cheesecake.html"
+                ]
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/post.html"    postContext
+            >>= loadAndApplyTemplate "templates/default.html" postContext
             >>= relativizeUrls
 
     match "error/*" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" postCtx
+            >>= loadAndApplyTemplate "templates/default.html" basePostContext
             >>= relativizeUrls
           
 
-    -- create ["archive.html"] $ do
-    --     route idRoute
-    --     compile $ do
-    --         posts <- recentFirst =<< loadAll "posts/*"
-    --         let archiveCtx =
-    --                 listField "posts" postCtx (return posts) `mappend`
-    --                 constField "title" "Archives"            `mappend`
-    --                 defaultContext
+    create ["archive.html"] $ do
+        route idRoute
+        compile $ do
+            posts <- recentFirst =<< loadAll "posts/*"
+            let archiveCtx =
+                    listField "posts" basePostContext (return posts) `mappend`
+                    constField "title" "Archives"            `mappend`
+                    defaultContext
 
-    --         makeItem ""
-    --             >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
-    --             >>= loadAndApplyTemplate "templates/default.html" archiveCtx
-    --             >>= relativizeUrls
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
+                >>= loadAndApplyTemplate "templates/default.html" archiveCtx
+                >>= relativizeUrls
+
+
+    create ["rafiki-cheesecake.html"] $ do
+        route idRoute
+        compile $ do
+            posts <- recentFirst =<< loadAll "rafiki-posts/*"
+            let archiveCtx =
+                    listField "posts" basePostContext (return posts) `mappend`
+                    constField "title" "Rafiki Cheesecake Archives" `mappend`
+                    defaultContext
+
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
+                >>= loadAndApplyTemplate "templates/default.html" archiveCtx
+                >>= relativizeUrls
 
 
     match "index.html" $ do
         route idRoute
         compile $ do
+            -- All posts
             posts <- recentFirst =<< loadAll "posts/*"
+            -- Most recent $n$ posts
+            recentPosts <- fmap (take numRecentPosts) . recentFirst =<< loadAll "posts/*"
             let indexCtx =
-                    listField "posts" postCtx (return posts) `mappend`
+                    listField "posts" basePostContext (return posts) `mappend`
+                    listField "recentPosts" basePostContext (return recentPosts) `mappend`
                     constField "title" "Home"                `mappend`
                     defaultContext
 
@@ -92,7 +130,10 @@ main = hakyllWith configuration $ do
 
 
 --------------------------------------------------------------------------------
-postCtx :: Context String
-postCtx =
+basePostContext :: Context String
+basePostContext =
+    -- Comment out the below as it causes cyclic dependencies - will fix
+    -- later I guess
+    -- listField "recentPosts" defaultContext (fmap (take numRecentPosts) . recentFirst =<< loadAll "posts/*") `mappend`
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext

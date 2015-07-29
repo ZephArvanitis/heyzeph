@@ -188,7 +188,7 @@ mixing angles in order to describe the pairwise relationship between the
 states, and also have to add what's called a CP violating phase $\delta$.
 Overall, the relationship is a little messy:
 
-$
+$$
 \left(\begin{array}{c}\nu_e\\ \nu_\mu\\ \nu_\tau \end{array}\right)= \left(\begin{array}{ccc}
 c_{12}c_{13} & s_{12}c_{13} & s_{13}e^{-i\delta}\\
 -s_{12}c_{23}-c_{12}s_{23}s_{13}e^{i\delta} &
@@ -196,7 +196,7 @@ c_{12}c_{23}-s_{12}s_{23}s_{13}e^{i\delta} & s_{23}c_{13}\\
 s_{12}s_{23}-c_{12}c_{23}s_{13}e^{i\delta} &
 -c_{12}s_{23}-s_{12}c_{23}s_{13}e^{i\delta} & c_{23}c_{13}
 \end{array}\right)\left(\begin{array}{c}\nu_1\\ \nu_2\\ \nu_3 \end{array}\right)
-$
+$$
 
 And if that weren't crazy enough, the matrix above uses shorthand:
 $c_{ij}=\cos(\theta_{ij})$ and $s_{ij}=\sin(\theta_{ij})$. If you set these

@@ -117,6 +117,13 @@ figcaption
     font-size: 14px;
 }
 
+.sidebar {
+    position: absolute;
+    top:0; bottom:0; left:0;
+    width:50px;
+    background: #AAA;
+}
+
 ul.header-nav {
     list-style: none outside none;
     list-style-type: none;
