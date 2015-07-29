@@ -14,6 +14,7 @@ Hakyll things
   - Make some other compilers
     * TeX
     * ipynb?
+    * scholarly markdown - this would be so nice.......
 
 Figure out a general layout
   - Potentially a sidebar for archive links etc eventually.
