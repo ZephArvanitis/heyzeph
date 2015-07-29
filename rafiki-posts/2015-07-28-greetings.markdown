@@ -15,5 +15,8 @@ appearance or two include:
 * Ultimate (Frisbee) - As a longtime player and occasional captain, I have
   a lot of thoughts and feelings about Ultimate.
 * New York City - where I recently moved and am excitedly exploring.
+* Early modern Europe and the Middle East - I got engrossed in history
+  about a year ago and continue to read and learn all sorts of interesting
+  things!
 
 That's all for now! Welcome, and thanks for reading.
