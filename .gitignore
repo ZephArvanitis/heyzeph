@@ -1,7 +1,3 @@
-# Vim things (yes, I'll move this to a global gitignore someday)
-*~
-*.sw?
-
 # Cabal things
 .cabal-sandbox
 cabal.sandbox.config

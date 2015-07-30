@@ -28,9 +28,12 @@ Generate content
     * Physicsy stuff
       - Solar fusion
       - Kaons -> move post from tex writeup
-      - Migrate theomech pdf to post
+      - Clinic project
     * Interesting softwarey things
+      - Gazelles? How this blog works?
   - Personal blog
+    * History etc (environmental history?)
+    * Outdoors/bikes something something
   - Impossible List
     * Fitness
       > goals regarding fitness
