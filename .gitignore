@@ -8,3 +8,5 @@ dist/*
 .store/*
 _site/*
 blog
+site
+hakyll-4.5.4.0/*

@@ -27,6 +27,10 @@ configuration = defaultConfiguration {
 
 main :: IO ()
 main = hakyllWith configuration $ do
+    match "images/favicons/*" $ do
+        route (gsubRoute "images/favicons/" (const ""))
+        compile copyFileCompiler
+
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
