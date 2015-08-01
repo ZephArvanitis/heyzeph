@@ -6,6 +6,7 @@ Fix background somehow.
   - mostly done, but need to concoct a background color that isn't awful
 
 Hakyll things
+  - Get preview server working again
   - Set up tex a bit nicer:
     * centered equations, align, etc.
     * don't change line height when the line contains math
@@ -19,6 +20,8 @@ Hakyll things
 Figure out a general layout
   - Potentially a sidebar for archive links etc eventually.
   - Make the css be browser-width-dependent (it's okay now, but not great)
+    - Make css mobile first (mobile by default, fancier layouts if screen
+      is wide enough)
 
 Generate content
   - Ultimate stuff
