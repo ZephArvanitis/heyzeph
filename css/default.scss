@@ -1,18 +1,4 @@
-//@import 'colors';
-// Main colors
-$background-color: #668ACC;
-$column-background-color: #F8F8F8;
-
-// Text colors
-$text-color: #222;
-$info-text-color: #AAA;
-$footer-text-color: #555;
-$caption-color: #666;
-$header-link-color: white;
-$header-link-background-color: #334972;
-
-// Borders and other filler colors
-$column-border-color: #567abc;
+@import 'css/colors';
 
 /* Set defaults */
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button, textarea, p, th, td, a
