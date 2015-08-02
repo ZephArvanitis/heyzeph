@@ -1,33 +1,47 @@
-@import 'colors';
+//@import 'colors';
+// Main colors
+$background-color: #668ACC;
+$column-background-color: #F8F8F8;
+
+// Text colors
+$text-color: #222;
+$info-text-color: #AAA;
+$footer-text-color: #555;
+$caption-color: #666;
+$header-link-color: white;
+$header-link-background-color: #334972;
+
+// Borders and other filler colors
+$column-border-color: #567abc;
 
 /* Set defaults */
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button, textarea, p, th, td, a
 {
-    margin: 0;
-    padding: 0;
-    border-top-width: 0;
-    border-right-width: 0;
-    border-bottom-width: 0;
-    border-left-width: 0;
+  margin: 0;
+  padding: 0;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
 }
 
 /* GLOBAL */
 body
 {
-    font-family: "Arial", "Helvetica", "Helvetica Neue";
-    font-size: 14pt;
-    color: #333;
-    text-align: left;
-    background-color: $background-color;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 0 0 0;
+  font-family: "Arial", "Helvetica", "Helvetica Neue";
+  font-size: 14pt;
+  color: #333;
+  text-align: left;
+  background-color: $background-color;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 0 0 0;
 }
 h1
 {
-    font-size: 2.5em;
-    line-height: 1em;
-    color: black;
+  font-size: 2.5em;
+  line-height: 1em;
+  color: black;
 }
 
 h2 {
@@ -57,18 +71,18 @@ figcaption
 
 /* HEADER/BANNER */
 .app-header {
-    background-color: transparent;
-    background-image: linear-gradient(#2f5db1, #2e569f);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: auto, auto;
-    position: relative;
-    border-bottom: 1px solid #0049c3;
-    box-shadow: 0 0 5px #02204e;
-    z-index: 11;
+  background-color: transparent;
+  background-image: linear-gradient(#2f5db1, #2e569f);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto, auto;
+  position: relative;
+  border-bottom: 1px solid #0049c3;
+  box-shadow: 0 0 5px #02204e;
+  z-index: 11;
 }
 
 .header-element {
@@ -76,23 +90,20 @@ figcaption
 }
 
 .header-logo {
-    height: 2.3cm;
-    vertical-align: bottom;
+  height: 2.3cm;
+  vertical-align: bottom;
 }
 
 .header-nav {
-    float: left;
-    margin-left: 0em;
-    margin-top: 0em;
-}
-
-.header-nav li {
+  float: left;
+  margin-left: 0em;
+  margin-top: 0em;
+  li {
     font-size: 1.1em;
     line-height: 1.2em;
     text-shadow: 0px -1px 0px #001f76;
-}
-
-.header-nav a {
+  }
+  a {
     border-radius: 3px;
     color: $header-link-color;
     font-weight: bold;
@@ -100,62 +111,62 @@ figcaption
     line-height: 110%;
     display: block;
     padding: 0.1em 0.3em;
-}
- 
-.header-nav a:hover {
-     background: #334972;
-     text-decoration: underline;
-     color: $header-link-color;
+  }
+  a:hover {
+    background: $header-link-background-color;
+    text-decoration: underline;
+    color: $header-link-color;
+  }
 }
 
 .header-container {
-    margin: 0px auto;
-    padding: 0px 5cm;
-    line-height: 1.28571em;
-    font-size: 14pt;
+  margin: 0px auto;
+  padding: 0px 5cm;
+  line-height: 1.28571em;
+  font-size: 14pt;
 }
 
 .sidebar {
-    position: absolute;
-    top:0; bottom:0; left:0;
-    width:4cm;
-    background: #AAA;
+  position: absolute;
+  top:0; bottom:0; left:0;
+  width:4cm;
+  background: #AAA;
 }
 
 ul.header-nav {
-    list-style: none outside none;
-    list-style-type: none;
-    list-style-image: none;
-    list-style-position: outside;
+  list-style: none outside none;
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;
 }
 
 .inline-block {
-    display: inline-block;
+  display: inline-block;
 }
 
 /* CONTENT */
 .content-container {
-    padding: 0 1cm 1cm;
-    min-width: 10cm;
-    max-width: 20cm;
-    margin: 0 auto;
+  padding: 0 1cm 1cm;
+  min-width: 10cm;
+  max-width: 20cm;
+  margin: 0 auto;
 }
 
 .column-container {
-    padding: 0.5cm 1cm 1cm;
-    border-width: medium 1px 1px;
-    border-style: none solid solid;
-    border-color: $column-border-color;
-    background: none repeat scroll 0% 0% #FFF;
-    min-height: 5cm;
-    font-size: 13pt;
-    line-height: 1.2em;
-    background-color: $column-background-color;
-    color: $text-color;
+  padding: 0.5cm 1cm 1cm;
+  border-width: medium 1px 1px;
+  border-style: none solid solid;
+  border-color: $column-border-color;
+  background: none repeat scroll 0% 0% #FFF;
+  min-height: 5cm;
+  font-size: 13pt;
+  line-height: 1.2em;
+  background-color: $column-background-color;
+  color: $text-color;
 }
 
 .column-container p {
-    padding: 0.2cm 0;
+  padding: 0.2cm 0;
 }
 
 .info {
@@ -165,73 +176,73 @@ ul.header-nav {
 }
 
 .column-header {
-    position: relative;
-    clear: both;
-    border-bottom: 1px solid #567abc;
-    font-size: 32pt;
-    line-height: 1em;
-    padding-bottom: 5pt;
-    margin-bottom: 10pt;
+  position: relative;
+  clear: both;
+  border-bottom: 1px solid #567abc;
+  font-size: 32pt;
+  line-height: 1em;
+  padding-bottom: 5pt;
+  margin-bottom: 10pt;
 }
 
 div#footer {
-    color: $footer-text-color;
-    font-size: 9pt;
-    margin-top: 2em;
-    padding: 1em;
-    text-align: right;
+  color: $footer-text-color;
+  font-size: 9pt;
+  margin-top: 2em;
+  padding: 1em;
+  text-align: right;
 }
 
 /* mobile styles, at least in theory */
 @media (max-width: 500px){
 
-	html, body {
+  html, body {
     font-size: 2em;
-		background: #D1DBEF;
-		padding: 0;
-		}
-	#sidebar, #footer {
-		display: none;
-		}
-	h1, h2, h3, h4, h5, h6 {
-		font-weight: normal;
-		}
-	#content img { 
-		max-width: 250pt;
-		}
-	.center {
-		width: 100% !important;
-		text-align: center;
-		}
+    background: #D1DBEF;
+    padding: 0;
+  }
+  #sidebar, #footer {
+    display: none;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+  }
+  #content img { 
+    max-width: 250pt;
+  }
+  .center {
+    width: 100% !important;
+    text-align: center;
+  }
   /* remove padding on central column */
   .content-container {
-      padding: 0;
-      min-width: 0;
-      margin: 0 auto;
+    padding: 0;
+    min-width: 0;
+    margin: 0 auto;
   }
   .column-container {
-      padding: 0.5cm 0.5cm 1cm;
+    padding: 0.5cm 0.5cm 1cm;
   }
 
   /* Take up less horizontal space with the header by expanding it
    * vertically */
-  .app-header {
-      min-width: 0;
-  }
-  .header-container {
-      min-width: 0;
-      margin: 0px auto;
-      height: 4cm;
-      padding: 0px 0.5cm;
-      line-height: 1.28571em;
-      font-size: 14pt;
-  }
-  .header-nav {
-      float: left;
-      margin-left: 0;
-      margin-top: 0.5cm;
-  }
-  .inline-block {
-      display: inline;
-  }
+.app-header {
+  min-width: 0;
+}
+.header-container {
+  min-width: 0;
+  margin: 0px auto;
+  height: 4cm;
+  padding: 0px 0.5cm;
+  line-height: 1.28571em;
+  font-size: 14pt;
+}
+.header-nav {
+  float: left;
+  margin-left: 0;
+  margin-top: 0.5cm;
+}
+.inline-block {
+  display: inline;
+}
 }

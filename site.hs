@@ -44,9 +44,11 @@ main = hakyllWith configuration $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "css/*" $ do
-        route   idRoute
-        compile compressCssCompiler
+    match "css/default.scss" $ do
+    route   $ setExtension "css"
+    compile $ getResourceString >>=
+        withItemBody (unixFilter "sass" ["-s", "--scss"]) >>=
+        return . fmap compressCss
 
     match (fromList ["about.markdown", "contact.markdown", "resume/resume.markdown"]) $ do
         route   $ setExtension "html"
