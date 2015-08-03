@@ -1,0 +1,43 @@
+/* More styling for wider screens (default is always mobile/narrow-screen
+ * arrangement, while wider screens enable a few other features)
+ */
+
+/* Header */
+.header-nav {
+  margin-top: 0;
+  li {
+    font-size: 20pt;
+    line-height: 1.2em;
+  }
+}
+
+.header-nav.li {
+  font-size: 20pt;
+}
+.header-container {
+  padding: 0px 10%;
+  height: 2.5cm;
+}
+.inline-block {
+  display: inline-block;
+}
+
+/* Main content */
+.content-container {
+  padding: 0 1cm 1cm;
+  min-width: 10cm;
+  max-width: 20cm;
+}
+
+.column-container {
+  padding: 0.5cm 1cm 1cm;
+}
+
+
+/* Sidebar */
+.sidebar {
+  position: absolute;
+  top:0; bottom:0; left:0;
+  width:4cm;
+  background: #AAA;
+}
