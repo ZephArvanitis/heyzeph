@@ -13,3 +13,4 @@ hakyll-4.5.4.0/*
 
 # Ignore the sass cache
 .sass-cache/*
+css/.sass-cache/*
