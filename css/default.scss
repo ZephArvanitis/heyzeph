@@ -5,7 +5,7 @@
  * browsers that say they are wider than $min-width. 
  */
 
-$min-width: 500px;
+$min-width: 1000px;
 
 html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button, textarea, p, th, td, a {
   margin: 0;
@@ -15,6 +15,7 @@ html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, bu
   border-bottom-width: 0;
   border-left-width: 0;
   font-size: 14pt;
+  line-height: 150%;
 }
 body {
   font-family: "Arial", "Helvetica", "Helvetica Neue";
@@ -26,8 +27,8 @@ body {
 }
 
 h1 {
-  font-size: 2.5em;
-  line-height: 1em;
+  font-size: 250%;
+  line-height: 100%;
   color: black;
 }
 
@@ -91,7 +92,7 @@ figcaption
 .header-container {
   min-width: 0;
   margin: 0px auto;
-  height: 4cm;
+  height: 6 * 1.2em + 1em;
   padding: 0px 0.5cm;
   line-height: 1.28571em;
   font-size: 14pt;
@@ -105,6 +106,8 @@ figcaption
 .header-logo {
   height: 2.3cm;
   vertical-align: bottom;
+  position: relative; 
+  top: -20px;
 }
 .header-nav {
   float: left;
@@ -117,7 +120,7 @@ figcaption
     list-style-position: outside;
   }
   li {
-    font-size: 1.1em;
+    font-size: 110%;
     line-height: 1.2em;
     text-shadow: 0px -1px 0px #001f76;
   }
@@ -184,6 +187,6 @@ div#footer {
 }
 
 /* Extra features for extra-wide screens */
-@media (min-width: $min-width) {
+@media screen and (min-width: $min-width) {
    @import 'css/widescreen';
 }

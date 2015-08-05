@@ -2,15 +2,22 @@
  * arrangement, while wider screens enable a few other features)
  */
 
+/* General: increase font size */
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button, textarea, p, th, td, a {
+  font-size: 14pt;
+  line-height: 1.5em;
+}
 /* Header */
 .header-nav {
   margin-top: 0;
   li {
-    font-size: 20pt;
-    line-height: 1.2em;
+    font-size: 18pt;
+    line-height: 1.5em;
   }
 }
-
+.header-logo {
+  top: 0;
+}
 .header-nav.li {
   font-size: 20pt;
 }
