@@ -5,7 +5,7 @@
  * browsers that say they are wider than $min-width. 
  */
 
-$min-width: 1000px;
+$min-width: 20cm;
 
 html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button, textarea, p, th, td, a {
   margin: 0;
@@ -92,8 +92,8 @@ figcaption
 .header-container {
   min-width: 0;
   margin: 0px auto;
-  height: 6 * 1.2em + 1em;
-  padding: 0px 0.5cm;
+  height: 3cm;
+  padding: 0px 10%;
   line-height: 1.28571em;
   font-size: 14pt;
 }

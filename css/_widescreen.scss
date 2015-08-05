@@ -4,7 +4,6 @@
 
 /* General: increase font size */
 html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button, textarea, p, th, td, a {
-  font-size: 14pt;
   line-height: 1.5em;
 }
 /* Header */
@@ -31,7 +30,7 @@ html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, bu
 
 /* Main content */
 .content-container {
-  padding: 0 1cm 1cm;
+  padding: 0 0 0;
   min-width: 10cm;
   max-width: 20cm;
 }
