@@ -2,9 +2,6 @@ TO DO
 Create new non-root users
     - myself
 
-Fix background somehow.
-  - mostly done, but need to concoct a background color that isn't awful
-
 Hakyll things
   - Get preview server working again
   - Set up tex a bit nicer:
@@ -17,11 +14,13 @@ Hakyll things
     * ipynb?
     * scholarly markdown - this would be so nice.......
 
-Figure out a general layout
-  - Potentially a sidebar for archive links etc eventually.
-  - Make the css be browser-width-dependent (it's okay now, but not great)
-    - Make css mobile first (mobile by default, fancier layouts if screen
-      is wide enough)
+Layout tweaks
+  - Nice sidebar, and some sort of narrow-screen option for displaying
+    information there.
+  - Fix weird Safari bug in which moving from small screen to wide-screen
+    mode causes the header (logo and navigation) to drop below the bottom
+    of the header area. Works fine on refresh though...
+  - make "post list" the same size as the footer, rather than huge
 
 Generate content
   - Ultimate stuff
@@ -49,8 +48,6 @@ Generate content
 
 Web stuff
   - Set up Google Analytics
-  - Use SCSS instead of raw CSS - more like a language and less like, well,
-    CSS.
 
 Git stuff
   - Move vim ignoring things to a global git config
