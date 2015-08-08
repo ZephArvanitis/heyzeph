@@ -57,13 +57,9 @@ figcaption
   font-family: "Arial", "Helvetica", "Helvetica Neue";
 }
 
-#sidebar, #footer {
+#sidebar {
   display: none;
 }
-
-/* h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-} */
 
 #content img { 
   max-width: 250pt;
@@ -165,6 +161,9 @@ figcaption
   text-align: right;
   color: $info-text-color;
   font-size: 10pt;
+  a {
+    font-size: 10pt;
+  }
 }
 
 .column-header {
@@ -179,11 +178,16 @@ figcaption
 
 /* Footer */
 div#footer {
+  border-style: dotted;
+  clear: both;
   color: $footer-text-color;
   font-size: 9pt;
   margin-top: 2em;
   padding: 1em;
   text-align: right;
+  a {
+    font-size: 9pt;
+  }
 }
 
 /* Extra features for extra-wide screens */

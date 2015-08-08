@@ -20,7 +20,6 @@ Layout tweaks
   - Fix weird Safari bug in which moving from small screen to wide-screen
     mode causes the header (logo and navigation) to drop below the bottom
     of the header area. Works fine on refresh though...
-  - make "post list" the same size as the footer, rather than huge
 
 Generate content
   - Ultimate stuff
