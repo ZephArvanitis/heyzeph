@@ -47,6 +47,3 @@ Generate content
 
 Web stuff
   - Set up Google Analytics
-
-Git stuff
-  - Move vim ignoring things to a global git config

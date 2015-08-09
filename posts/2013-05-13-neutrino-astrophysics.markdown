@@ -107,6 +107,7 @@ that it's sensitive to two reactions: $\nu_e+D\rightarrow e^-+p+p$, which only
 detects electron neutrinos, and $\nu+D\rightarrow \nu'+n+p$, which can detect
 all three flavors of electrons. This ability will turn out to be very
 beneficial in the resolution of the solar neutrino problem.
+
 <figure>
   <img class="centerimage" src="../images/solar-neutrino-spectrum-annotated.png" width="80%">
   <figcaption>
@@ -358,10 +359,11 @@ particular mixing angle will tell us how the masses of the mass eigenstates are
 related. There are two possibilities: the natural mass hierarchy, in which
 $m_{\nu_1}<m_{\nu_2}<m_{\nu_3}$ (shown at left below), and the inverted mass
 hierarchy, in which $m_{\nu_3}<m_{\nu_1}<m_{\nu_2}$ (shown at right below).
+
 <figure>
   <img class="centerimage" src="../images/neutrinomasshierarchy.jpg" width="80%">
   <figcaption>
-    From Nishikawa, K. 2010 _Recent Status of Accelerator Neutrino Experiments_
+  From Nishikawa, K. 2010 _Recent Status of Accelerator Neutrino Experiments_
   </figcaption>
 </figure>
 
@@ -373,11 +375,12 @@ such as neutrinoless double-beta decay could occur, in which two neutrinos
 annihilate in joint beta decay of two neutrons. This is a highly sought-after
 reaction, and there are legions of physicists working to find or rule out such
 a reaction.
+
 <figure>
   <img class="centerimage" src="../images/doublebeta.png" width="80%">
   <figcaption>
-    Double-beta neutron decay.  
-    From wikipedia.org.
+  Double-beta neutron decay.  
+  From wikipedia.org.
   </figcaption>
 </figure>
 

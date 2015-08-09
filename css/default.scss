@@ -7,6 +7,7 @@
 
 $min-width: 20cm;
 
+/* General setup */
 html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button, textarea, p, th, td, a {
   margin: 0;
   padding: 0;
@@ -17,6 +18,9 @@ html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, bu
   font-size: 14pt;
   line-height: 150%;
 }
+a {
+  font-size: 1em;
+}
 body {
   font-family: "Arial", "Helvetica", "Helvetica Neue";
   font-size: 14pt;
@@ -25,27 +29,17 @@ body {
   background-size: cover;
   background-color: $mobile-background-color;
 }
-
-h1 {
-  font-size: 250%;
-  line-height: 100%;
-  color: black;
-}
-
 h2 {
   padding: 0.2cm 0;
 }
-
 ul {
   padding: 0 0.5cm;
 }
-
 .centerimage {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 figcaption
 {
   display: block;
@@ -56,15 +50,12 @@ figcaption
   font-size: 11pt;
   font-family: "Arial", "Helvetica", "Helvetica Neue";
 }
-
 #sidebar {
   display: none;
 }
-
 #content img { 
   max-width: 250pt;
 }
-
 .center {
   width: 100% !important;
   text-align: center;
@@ -116,7 +107,7 @@ figcaption
     list-style-position: outside;
   }
   li {
-    font-size: 110%;
+    font-size: 1.1em;
     line-height: 1.2em;
     text-shadow: 0px -1px 0px #001f76;
   }
@@ -125,7 +116,7 @@ figcaption
     color: $header-link-color;
     font-weight: bold;
     text-decoration: none;
-    line-height: 110%;
+    line-height: 1.1em;
     display: block;
     padding: 0.1em 0.3em;
   }
@@ -161,9 +152,6 @@ figcaption
   text-align: right;
   color: $info-text-color;
   font-size: 10pt;
-  a {
-    font-size: 10pt;
-  }
 }
 
 .column-header {
