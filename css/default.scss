@@ -178,6 +178,8 @@ div#footer {
   }
 }
 
+@import 'css/paper';
+
 /* Extra features for extra-wide screens */
 @media screen and (min-width: $min-width) {
    @import 'css/widescreen';
