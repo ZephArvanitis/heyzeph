@@ -1,5 +1,6 @@
 ---
 title: Neutrino Astrophysics
+blogurl: archive.html
 ---
 
 The Basics

@@ -1,6 +1,7 @@
 ---
 date: 12 December 2012
 title: Chaotic Pendulum
+blogurl: archive.html
 ---
 
 This post was originally a paper written with Vivian Steyert for a class,
