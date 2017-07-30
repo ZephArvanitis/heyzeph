@@ -23,7 +23,7 @@ configuration = defaultConfiguration {
 
   -- How to deploy the site
   -- SSH config deals with identify file and aliasing to the proper server
-  deployCommand = "rsync _site/* root@heytasha:/var/www/ --progress --delete --recursive"
+  deployCommand = "chmod 644 images/*.jpg && rsync _site/* root@heytasha:/var/www/ --progress --delete --recursive"
 }
 
 main :: IO ()
