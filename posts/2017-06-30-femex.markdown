@@ -33,7 +33,7 @@ several types of molecules
 * There was some interesting work on meso-scale modeling using a finite
 elements approach presented by Dr. Sarah Harris, whose lab has just
 released an open source project for said models at
-[ffea.bitbucket.io](ffea.bitbucket.io).
+[ffea.bitbucket.io](http://ffea.bitbucket.io).
 * Dr. Rosa Bulo presented on work with QM/MM and energy conservation - in
 particular she's found that a good force field for the MM component is
 critical to preventing depletion in the region where interactions
