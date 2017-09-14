@@ -3,7 +3,7 @@ title: Biking the Netherlands
 ---
 
 In June, I had the wonderful chance to travel to the Netherlands for a
-combination of [business](2017-06-30-femex.html) and pleasure. Of the ten days
+combination of [business](../posts/2017-06-30-femex.html) and pleasure. Of the ten days
 I spent there, four were at FemEx and the remaining six were spent biking
 around, primarily in Gelderland but also to some extent in Utrecht,
 Flevoland, and North Holland. It was a lovely trip, made more lovely by the
