@@ -29,8 +29,16 @@ body {
   background-size: cover;
   background-color: $mobile-background-color;
 }
+h1 {
+  padding: 0.3cm 0;
+  font-size: 20pt;
+}
 h2 {
   padding: 0.2cm 0;
+  font-size: 16pt;
+}
+h3 {
+  padding: 0.1cm 0;
 }
 ul {
   padding: 0 0.5cm;
