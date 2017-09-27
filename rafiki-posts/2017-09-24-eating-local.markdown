@@ -4,11 +4,11 @@ title: Eating local
 
 ## The challenge
 
-One of my teammates, Rebecca Tucker,  mentioned in passing around the
+One of my teammates, Becca Tucker,  mentioned in passing around the
 beginning of September that she and her family were "eating local" for the
 duration of the month.  She lives on a farm upstate and tends to be very
-conscious of her impact on the environment, so it felt sort of natural for
-her to do that, but I didn't expect that she would in turn challenge me to
+conscious of her impact on the environment, so it felt like a natural thing
+for her to do, but I didn't expect that she would in turn challenge me to
 give it a try. After all, I live in the middle of the largest city in the
 country; there's no way I could eat "local," whatever that meant.
 
@@ -26,15 +26,19 @@ The rules, in a general sense, were:
 > Eat only food that was grown or raised within 250 miles of where you
 > live.
 
-Of course, it's a little more complicated than that. What I was really
-trying to minimize with this sort of challenge was the cost (both financial
-and carbon) of transportation of food from where it was created to where it
-is eaten. As a result, there's a blanket exception for spices.  There's a
-reason that they were one of the first goods traded over very long
-distances: they pack some real bang for your transportation buck. I chose to
-extend the same logic to tea, partially because it feels similar
-and partially because it gave me the ability to meet up with friends for
-"coffee" and actually order something at most coffee shops.
+I chose, like Tucker, to interpret this as applying to all ingredients in a
+dish as well: if I wanted to eat bread it had better be made locally with
+local flour, and so on.
+
+Of course, it's a little more complicated than that. The spirit of the
+challenge was minimizing the cost (both financial and carbon) of
+transporting food during its lifetime. As a result, there's a blanket
+exception for spices.  There's a reason that they were one of the first
+goods traded over very long distances: they pack some real bang for your
+transportation buck. I chose to extend the same logic to tea, partially
+because it feels similar and partially because it gave me the ability to
+meet up with friends for "coffee" and actually order something at most
+coffee shops.
 
 Along the same lines, if a friend had been coming to town from far away
 anyway and decided to bring some tomatoes from their backyard, I would have
@@ -102,9 +106,11 @@ strenuous physical activity. I ended up preparing:
 * A cup of dry oats for oatmeal in the mornings.
 * Two ready-to-blend smoothies. These used apple, peach, strawberry,
 spinach, milk, and whey protein (my exception from above). I brought my
-magic bullet along and blended a smoothie up both mornings in the hotel.
+magic bullet single-serving blender along and blended a smoothie up both
+mornings in the hotel.
 * Enchiladas (same as I made [here](2017-09-07-csa-week-12.html)) for
-dinners Friday through Sunday.
+dinners Friday through Sunday. This continued to be the tastiest food I've
+ever made from scratch.
 * Leftover tortillas from the enchilada-making process. I made these from
 scratch with some local flour, and they turned out pretty tasty, if a bit
 stiff when they cooled off.
@@ -148,7 +154,16 @@ similar challenge, would have eaten a lot of almonds and kale and citrus
 and far fewer apples and squash.
 * At least in the city, eating local requires a bit of extra work and
 definitely some extra spending, so it's definitely not for everyone. I'm
-glad I'm in a position where I could afford to try it out for a bit.
+glad I'm in a position where I could afford to try it out for a bit. The
+final rundown for the week was that what I bought local was around 20-30%
+pricier than buying the same things at my local grocery store. That seems
+to be about the same magnitude of difference between shopping at Whole
+Foods versus Trader Joe's. It also doesn't account for the fact that some
+cheaper food options simply aren't available locally, making the cost of
+eating local a little higher than the above percentage would suggest. That
+20-30% is also very non-uniformly distributed between various products:
+produce and cheese were similarly priced, while chicken, flour, and
+butter were much more expensive to buy locally.
 * This isn't so much a fun fact as a change of perspective: I notice myself
 thinking much more about where my food comes from. I'm more aware than ever
 before of the difficulty of creating acidic sauces without lemons, of the
@@ -160,3 +175,10 @@ constraints of local eating. I wasn't so sure about this to begin with
 know for a fact that it's possible and not even that hard. Who knows, maybe
 I'll try doing this a little more regularly (once per season, for instance)
 and see what happens!
+
+<figure>
+<img class="centerimage" src="../images/20170927-local-milk.jpg" width="40%">
+<figcaption>Before this challenge, I probably wouldn't have noticed, let
+alone considered buying, this local milk, which is a new offering at my
+local grocery store.</figcaption>
+</figure>
