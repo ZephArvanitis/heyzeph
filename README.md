@@ -1,4 +1,4 @@
-This code generates my website, a static site viewable at heytasha.com.
+This code generates my website, a static site (currently) viewable at heytasha.com.
 
 Building
 ---
